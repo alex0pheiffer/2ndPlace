@@ -1,11 +1,7 @@
 package com.example.a2ndplace
 
-class Answer() {
+class Answer(image: Int, name: String) {
 
- // hello there
 
-    fun hlsdfj() {
-
-    }
 
 }
