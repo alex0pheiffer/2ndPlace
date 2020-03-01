@@ -17,7 +17,7 @@ class answerFragment : Fragment() {
             Answer(R.drawable.venus, "Ssasssy Cat", "You've been matched with a Sasssy Cat"),
             Answer(R.drawable.persian, "Lost", "You seem to be lost."),
             Answer(R.drawable.youbeadorable, "Kitten !", "You Be Adorable"),
-            Answer(R.drawable.hairless, "AAAhhh!!", "The hairless")
+            Answer(R.drawable.hairless, "AAAhhh!!", "The hairless is your closest cat companion!")
 
     )
 
