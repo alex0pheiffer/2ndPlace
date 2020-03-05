@@ -9,7 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 
 class answerFragment : Fragment() {
-    private var listener: OnFragmentInteractionListener? = null
 
     val myAnswers = listOf<Answer>(
             Answer(R.drawable.nemesis,"NEMESIS", "NEMESIS is your closest cat companion!"),
@@ -48,28 +47,6 @@ class answerFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_answer, container, false)
         return view
-    }
-
-    fun onButtonPressed(uri: Uri) {
-        listener?.onFragmentInteraction(uri)
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is OnFragmentInteractionListener) {
-            listener = context
-        } else {
-            throw RuntimeException(context.toString() + " must implement OnFragmentInteractionListener")
-        }
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
-
-    interface OnFragmentInteractionListener {
-        fun onFragmentInteraction(uri: Uri)
     }
 
     companion object {

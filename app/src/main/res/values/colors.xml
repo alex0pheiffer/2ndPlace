@@ -6,4 +6,5 @@
     <color name="colortitle">#E041F7</color>
     <color name="colorsubtitle">#60E4ED</color>
     <color name="colorwhite">#fff</color>
+    <color name="colorblack">#000</color>
 </resources>
