@@ -17,7 +17,23 @@ class answerFragment : Fragment() {
             Answer(R.drawable.venus, "Ssasssy Cat", "You've been matched with a Sasssy Cat"),
             Answer(R.drawable.persian, "Lost", "You seem to be lost."),
             Answer(R.drawable.youbeadorable, "Kitten !", "You Be Adorable"),
-            Answer(R.drawable.hairless, "AAAhhh!!", "The hairless is your closest cat companion!")
+            Answer(R.drawable.hairless, "AAAhhh!!", "The hairless is your closest cat companion!"),
+            Answer(R.drawable.banana,"Sleeping in Fruit","You find satisfactory comfort amongst food."),
+            Answer(R.drawable.bonk,"bonk !","TODO"),
+            Answer(R.drawable.catbed,"","TODO"),
+            Answer(R.drawable.cheeto,"Cheeto","TODO"),
+            Answer(R.drawable.christmascat,"MERRY CHRISTMAS", "You light up around the holiday season!"),
+            Answer(R.drawable.cupcat,"","TODO"),
+            Answer(R.drawable.fastcat,"","TODO"),
+            Answer(R.drawable.triggercat,"mrew","TODO"),
+            Answer(R.drawable.thedailystruggle,"","TODO"),
+            Answer(R.drawable.stuck,"","TODO"),
+            Answer(R.drawable.sleepntabby,"","TODO"),
+            Answer(R.drawable.santa,"","TODO"),
+            Answer(R.drawable.scrabble,"","TODO"),
+            Answer(R.drawable.kittenwtoy,"","TODO"),
+            Answer(R.drawable.lion,"","TODO"),
+            Answer(R.drawable.kitteen,"","TODO")
 
     )
 
